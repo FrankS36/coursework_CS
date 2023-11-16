@@ -1,0 +1,31 @@
+Git and github: 
+------------------  
+- git is a version control system that lets you manage and keep track of your source code history.
+- github is a website that hosts git repositories online.
+- git was created by Linus Torvalds in 2005 for development of the Linux kernel, with other kernel developers contributing to its initial development.
+- git is a distributed version control system, which means that the entire codebase and history is available on every developer's computer, which allows for easy branching and merging.
+- git is a free and open source software distributed under the terms of the GNU General Public License version 2.
+- git is a command line tool, but there are various graphical user interfaces available for git.
+- branching: git allows and encourages you to have multiple local branches that can be entirely independent of each other. The creation, merging, and deletion of those lines of development takes seconds.
+- merging: git has tools that allow merging of branches.
+- there should only be one master branch, and all other branches should be created off of it. The master branch should always be deployable to production. 
+- git is the most popular version control system in the world.
+
+Git commands:
+----------------
+- git init: initialize a git repository in the current directory.
+- git status: shows the status of changes as untracked, modified, or staged.
+- git add <filename>: adds a file to the staging area.
+- git commit -m "message": commits the staged snapshot to the project history.
+- git log: shows the commit history.
+- git diff: shows the unstaged changes to a file.
+- git diff --staged: shows the staged changes to a file.
+- git checkout -- <filename>: discards changes in the working directory.
+- git reset HEAD <filename>: unstages a file.
+- git remote add origin <url>: adds a remote repository.
+- git push -u origin master: pushes the master branch to the remote repository.
+- git pull origin master: pulls the master branch from the remote repository.
+- git clone <url>: clones a remote repository into a new directory.
+- git branch <branchname>: creates a new branch.
+- git checkout <branchname>: switches to the specified branch.
+- to see if git is initialized in the current directory, use the command: git status.
